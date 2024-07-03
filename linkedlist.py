@@ -154,31 +154,3 @@ class LinkedList:
             result.append(str(node.data()))
             node = node.next_node()
         return " -> ".join(result)     
-
-
-ll = LinkedList()
-# ll.append_node(1)
-# ll.append_node(2)
-# ll.append_node(3)
-# ll.append_node("this")
-# ll.append_node(5)
-# ll.remove_head_node()
-# ll.prepend_node(6)
-# ll.remove_tail_node()
-# ll.remove_tail_node()
-# ll.remove_tail_node()
-# ll.remove_tail_node()
-# ll.remove_head_node()
-
-# print(ll.find_nodes(3))
-# ll.remove_node_at_idx(0)
-# ll.remove_node_at_idx(2)
-# ll.remove_node_at_idx(1)
-ll.remove_node_by_data("this")
-ll.remove_node_by_data("this")
-
-
-print(ll.stringify_list())
-print("size", ll.size())
-# print("head", ll.head_node().data())
-# print("tail", ll.tail_node().data())
